@@ -1,0 +1,98 @@
+body{
+     animation: we 50s infinite;
+   background-image: url(background-adare-restaurant.jpg);
+    background-color: #df0f08;
+}
+@keyframes we{
+    from{
+        background-image: url(background-adare-restaurant.jpg);
+    }
+    to{
+        background-image: url(i.jpg);
+    }
+}
+header h2:hover{
+    color: darkgoldenrod;
+}
+
+header h2{
+    /* background-size: 1px; 
+    background-color: #f5f5dc;
+    color: #f5f5dc;
+    font-size: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding-top: 2ch;color: black; */
+    font-size: 90px;
+    font-weight: 500;
+    text-align: center;
+}
+nav{
+    height: 10vh;
+    text-transform: uppercase;
+    word-spacing: 5ch;
+    color: #f5f5dc;
+    font-size: 30px;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    background-color: rgba(58, 8, 8, 0.247);
+    justify-content: center;
+    align-items: center;
+/*     
+    padding-top: 3ch;
+    text-transform: uppercase;
+    word-spacing: 5ch;
+    color: #f5f5dc;
+    font-size: 30px;
+    text-decoration: none;
+    display: flex;
+
+    text-align: center;
+    background-color: rgba(58, 8, 8, 0.247); */
+}
+nav a{
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #2c2c2c;
+    transition: 0.60s;
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    
+    transition: .9s;
+}
+.a:hover{
+    transform: scale(1.05);
+}
+nav a:hover{
+   background-color: #000000;
+    text-decoration: none;
+    color: #fff000;
+}
+main{
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 4ch;
+}
+main p a{
+    text-decoration: none;
+    color: #1b1b1a;
+    cursor: pointer;
+    transition: 0.3s;
+}
+main p a:hover{
+    color: #fff000;
+}
+footer{
+    margin-top: 6ch;
+    color: #ffebcd;                                                 
+    text-align: center;
+    
+    font-size: 3vw;
+}
+footer:hover{
+    color: orange;
+}
